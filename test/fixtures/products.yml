@@ -2,16 +2,14 @@
 
 one:
   name: MyString
-  type: 
   color: MyString
   disposition: MyString
-  price: 1
   image: MyString
+  price: 1
 
 two:
   name: MyString
-  type: 
   color: MyString
   disposition: MyString
-  price: 1
   image: MyString
+  price: 1
