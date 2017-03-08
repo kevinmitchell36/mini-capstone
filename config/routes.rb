@@ -1,3 +1,5 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  get "/bat_one_url" => "products#bat_one_method"
+  get "/bat_two_url" => "products#bat_two_method"
+  get "/bat_three_url" => "products#bat_three_method"
 end
