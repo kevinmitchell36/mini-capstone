@@ -1,8 +1,11 @@
 <h1>Hello!</h1>
+<a href="/products/new">Create a Bat</a>
 <p><%@products.each do |product| %></p>
 <h1><%= product.name %></h1> 
 <h2><%= product.color %></h2>
 <h3><%= product.disposition %></h3>
 <h4><% product.image %></h4>
 <h5><%= product.price %></h5>
+<a href="/product/<%= product.id %>">More info</a>
+
 <% end %>   

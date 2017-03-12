@@ -1,0 +1,13 @@
+<h1>Meet your Bats!</h1>
+<h1><%= @product.name %></h1> 
+<h2><%= @product.color %></h2>
+<h3><%= @product.disposition %></h3>
+<h4><% @product.image %></h4>
+<h5><%= @product.price %></h5>
+<a href="/products">Back to all bats</a>
+<div>
+<a href="/products/<%= @product.id %>/edit">Edit Bat?</a>  
+</div>
+<%= form_tag "/products/#{@product.id}", method: :delete do %>
+  <input type="submit" value="Sell Bat!">
+<% end %>
